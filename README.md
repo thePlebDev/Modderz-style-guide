@@ -41,7 +41,7 @@
 
 
 ## Chats Builders <a name="Chats"></a>
-- Below is representation of all the [Builders]() that I use to create chat messages from data sent from [Twitch IRC server](https://dev.twitch.tv/docs/irc/commands/).
+- Below is representation of all the [Builders](https://dev.to/theplebdev/the-architectural-patterns-i-am-using-to-better-organize-my-jetpack-compose-code-1hj) that I use to create chat messages from data sent from [Twitch IRC server](https://dev.twitch.tv/docs/irc/commands/).
 
 ### TwitchIRCSystemNotificationsBuilders <a name="TwitchIRCSystemNotificationsBuilder"></a>
 - This is the builder class that is used to outline the two types of builders in chat, `SystemChat` and `SystemChatAlert`
