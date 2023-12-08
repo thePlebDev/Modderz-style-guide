@@ -30,6 +30,8 @@
     - [TwitchIRCSystemNotificationsBuilders](#TwitchIRCSystemNotificationsBuilder)
          - [SystemChat](#SystemChat)
          - [SystemChatAlert](#SystemChatAlert)
+    - [ChatBuilder](#ChatBulders)
+         - [ScrollableChat](#ScrollableChat)
 
 
 
@@ -41,7 +43,7 @@
 
 
 ## Chats Builders <a name="Chats"></a>
-- Below is representation of all the [Builders](https://dev.to/theplebdev/the-architectural-patterns-i-am-using-to-better-organize-my-jetpack-compose-code-1hj) that I use to create chat messages from data sent from [Twitch IRC server](https://dev.twitch.tv/docs/irc/commands/).
+- Below is representation of all the [Builders](https://dev.to/theplebdev/the-architectural-patterns-i-am-using-to-better-organize-my-jetpack-compose-code-1hj) that I use to create chat messages from data sent from [Twitch IRC server](https://dev.twitch.tv/docs/irc/commands/) and the individual chats sent by user
 
 ### TwitchIRCSystemNotificationsBuilders <a name="TwitchIRCSystemNotificationsBuilder"></a>
 - This is the builder class that is used to outline the two types of builders in chat, `SystemChat` and `SystemChatAlert`
@@ -52,11 +54,20 @@
  
 <img width="249" alt="systemChat" src="https://github.com/thePlebDev/Modderz-style-guide/assets/47083513/eb5cf180-6c5a-40d7-a031-8ab425e4da99">
 
-  #### SystemChatAlert <a name="SystemChatAlert"></a>
+#### SystemChatAlert <a name="SystemChatAlert"></a>
    - This chat design is meant to represent a alert shown to urgent data to the user. Typically a `SystemChatAlert` will follow this design:
 
 <img width="251" alt="systemChatAlert" src="https://github.com/thePlebDev/Modderz-style-guide/assets/47083513/a9848339-846a-4073-b095-1298c7f04738">
 
+
+### ChatBuilder <a name="ChatBulders"></a>
+- This is the builder class that is used to outline the types of builders used to create the user's chat experience
+
+  #### ScrollableChat <a name="ScrollableChat"></a>
+     - Contains all the composables that are to be used to create the basic user experience. Typically all ScrollableChat will look something like this:
+       
+
+<img width="261" alt="BasicChatExperience" src="https://github.com/thePlebDev/Modderz-style-guide/assets/47083513/5c8d7b33-8315-4e7b-8601-290383103085">
 
 
    
