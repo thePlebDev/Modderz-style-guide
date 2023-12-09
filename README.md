@@ -73,10 +73,10 @@
 <img width="261" alt="BasicChatExperience" src="https://github.com/thePlebDev/Modderz-style-guide/assets/47083513/5c8d7b33-8315-4e7b-8601-290383103085">
 
 ### TextChatBuilders <a name="TextChatBuilders"></a>
-- This is the builder class that is used to outline the types of builders used to the enter chat functionality. Essentially, where the user types in chat
+- These builder class' are used to outline the type of composabes in the typing chat functionality. Essentially, where the user types their chat messages
 
   #### EnterChat <a name="EnterChat"></a>
-     - Contains all the composables that are to be used to create the basic user typing experice. Typically, all EnterChat will look something like this:
+     - Contains all the composables that are to be used to create the basic user typing experice. Typically, all composables that use the TextChatBuilders.EnterChat will look something like this:
  
 
 <img width="258" alt="ChatBuilder" src="https://github.com/thePlebDev/Modderz-style-guide/assets/47083513/10525d5a-337a-4f9b-97ed-9bf56b0825be">
