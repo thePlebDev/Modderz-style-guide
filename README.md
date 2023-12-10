@@ -90,8 +90,8 @@
   #### BottomModalContent <a name="BottomModalContent"></a>
      - BottomModalContent is the basic layout for the bottom modal and is usually used in combination with a [RadioButtonDialog](#RadioButtonDialog).
      - A typical UI demonstration ***without***  and ***with*** the dialog will look like this:
-<img width="254" alt="BottomContentNoDialog" src="https://github.com/thePlebDev/Modderz-style-guide/assets/47083513/59fe7f4a-7593-4cc7-9a30-ccd944722777">
-    
-<img width="257" alt="BottomContentWithDialog" src="https://github.com/thePlebDev/Modderz-style-guide/assets/47083513/6f8350ad-061c-4410-bca5-e01c59b2dcf6">
+       
+<img width="254" alt="BottomContentNoDialog" src="https://github.com/thePlebDev/Modderz-style-guide/assets/47083513/59fe7f4a-7593-4cc7-9a30-ccd944722777" style="display:inline-block;">  
+<img width="257" alt="BottomContentWithDialog" src="https://github.com/thePlebDev/Modderz-style-guide/assets/47083513/6f8350ad-061c-4410-bca5-e01c59b2dcf6" style="display:inline-block;">
 
   
