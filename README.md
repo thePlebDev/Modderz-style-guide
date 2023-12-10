@@ -35,6 +35,9 @@
      
    - [TextChatBuilders](#TextChatBuilders)
         - [EnterChat](#EnterChat)
+          
+   - [BottomModalBuilders](#BottomModalBuilders)
+        - [BottomModalContent](#BottomModalContent)
 
 
 
@@ -81,13 +84,14 @@
 
 <img width="258" alt="ChatBuilder" src="https://github.com/thePlebDev/Modderz-style-guide/assets/47083513/10525d5a-337a-4f9b-97ed-9bf56b0825be">
 
+### BottomModalBuilders <a name="BottomModalBuilders"></a>
+- These builders are used to outline the basic layout for the bottom modal. Which is triggered when a user clicks on a chat message
 
-
-
-
-
-
-
-   
+  #### BottomModalContent <a name="BottomModalContent"></a>
+     - BottomModalContent is the basic layout for the bottom modal and is usually used in combination with a [RadioButtonDialog](#RadioButtonDialog).
+     - A typical UI demonstration ***without***  and ***with*** the dialog will look like this:
+<img width="254" alt="BottomContentNoDialog" src="https://github.com/thePlebDev/Modderz-style-guide/assets/47083513/59fe7f4a-7593-4cc7-9a30-ccd944722777">
+    
+<img width="257" alt="BottomContentWithDialog" src="https://github.com/thePlebDev/Modderz-style-guide/assets/47083513/6f8350ad-061c-4410-bca5-e01c59b2dcf6">
 
   
