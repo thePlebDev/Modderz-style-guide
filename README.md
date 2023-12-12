@@ -41,6 +41,9 @@
           
    - [BottomModalBuilders](#BottomModalBuilders)
         - [BottomModalContent](#BottomModalContent)
+    
+   - [ChatSettingsBuilder](#ChatSettingsBuilder)
+        - [ChatSettingsSwitchBox](#ChatSettingsSwitchBox)
 
 
 
@@ -96,5 +99,14 @@
        
 <img width="254" alt="BottomContentNoDialog" src="https://github.com/thePlebDev/Modderz-style-guide/assets/47083513/59fe7f4a-7593-4cc7-9a30-ccd944722777" style="display:inline-block;">  
 <img width="257" alt="BottomContentWithDialog" src="https://github.com/thePlebDev/Modderz-style-guide/assets/47083513/6f8350ad-061c-4410-bca5-e01c59b2dcf6" style="display:inline-block;">
+
+
+### ChatSettingsBuilder <a name="ChatSettingsBuilder"></a>
+- These builders are used to outline the basic layout for the chat settings while the user views the stream.
+
+  #### ChatSettingsSwitchBox <a name="ChatSettingsSwitchBox"></a>
+     - ChatSettingsSwitchBox is the basic layout for the chat settings section in the chat. A typical UI demonstration will look like this:
+       
+<img width="225" alt="ChatSettingsWithAlert" src="https://github.com/thePlebDev/Modderz-style-guide/assets/47083513/5571445e-bc4b-4737-9781-19c7a8264866">
 
   
