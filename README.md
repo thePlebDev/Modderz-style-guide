@@ -44,6 +44,9 @@
     
    - [ChatSettingsBuilder](#ChatSettingsBuilder)
         - [ChatSettingsSwitchBox](#ChatSettingsSwitchBox)
+    
+   - [SwipeToDeleteBuilder](#SwipeToDeleteBuilder)
+        - [DetectSwipeBox](#DetectSwipeBox)
 
 
 
@@ -108,5 +111,19 @@
      - ChatSettingsSwitchBox is the basic layout for the chat settings section in the chat. A typical UI demonstration will look like this:
        
 <img width="225" alt="ChatSettingsWithAlert" src="https://github.com/thePlebDev/Modderz-style-guide/assets/47083513/5571445e-bc4b-4737-9781-19c7a8264866">
+
+### SwipeToDeleteBuilder <a name="SwipeToDeleteBuilder"></a>
+- These builders are used to outline the basic layout for the swipe to delete functionality 
+
+  #### DetectSwipeBox <a name="DetectSwipeBox"></a>
+     - DetectSwipeBox is the basic layout and logic for the handling of the swipe to delete functionality. A typical UI demonstration will look like this(when the swipe to delete threshold is crossed):
+
+
+<img width="253" alt="SwipeToDeleteFuncUIDemo" src="https://github.com/thePlebDev/Modderz-style-guide/assets/47083513/4653b717-b8ae-4ce2-9cb2-21bb13b8e30b">
+
+
+
+
+       
 
   
