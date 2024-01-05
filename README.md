@@ -48,6 +48,9 @@
    - [SwipeToDeleteBuilder](#SwipeToDeleteBuilder)
         - [DetectSwipeBox](#DetectSwipeBox)
 
+   - [AutoMod.Builders](#AutoModBuilders)
+        - [AutoModRows](#AutoModRows)
+
 
 
 ### RadioButtonDialog <a name="RadioButtonDialog"></a>
@@ -121,6 +124,14 @@
 
 <img width="253" alt="SwipeToDeleteFuncUIDemo" src="https://github.com/thePlebDev/Modderz-style-guide/assets/47083513/4653b717-b8ae-4ce2-9cb2-21bb13b8e30b">
 
+
+### AutoMod.Builders <a name="AutoModBuilders"></a>
+- These builders represent the layout for the  all the AutoMod features
+
+  #### AutoModRows <a name="AutoModRows"></a>
+     - AutoModRows is the basic layout for the user Auto Moderation experience. A typical UI demonstration will look like this:
+
+<img width="254" alt="AutoModRoles" src="https://github.com/thePlebDev/Modderz-style-guide/assets/47083513/1715b5b2-42d2-4bad-93c2-ab6270fd146e">
 
 
 
